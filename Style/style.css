@@ -1,0 +1,29 @@
+body{
+    background-image: url("../images/backgroundneutre.jpeg");
+}
+#p1{
+    float: left;
+    font-size: 30px;
+}
+#p2{
+    text-align: right;
+    margin-right: 0;
+    font-size: 30px;
+}
+.navbar{
+    text-align: center;
+}
+#grid{
+    display: flex;
+    width: 40em;
+    height:40em;
+    margin: auto auto;
+    border: solid;
+    background-color: blue;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.colonne{
+    margin: 0 auto;
+}

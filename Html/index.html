@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Style/style.css">
+    <title>Puissance 4</title>
+</head>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/script.js"></script>
+<body>
+    <div class='navbar'>
+    
+    <h1>Puissance 4</h1>
+    <div class ="element-navbar">
+    <div id="p1">
+    </div>
+    <div id="p2">
+    </div>
+      
+    <div id="tour">
+    </div>
+    <div id="score">
+    </div>
+    </div>
+    </div>
+    <div id="grid">
+    
+    </div>
+    <script>
+        $(document).ready( function() {
+            $("#grid").grid(
+              10, 10, // Grid 
+              "red",  // Color Player 1
+              "yellow", // Color Player 2
+              "Joueur 1", // Name Player 1
+              "Joueur 2", // Name Player 2
+              "1" // Tour
+            );
+        } );
+    </script>
+</body>
+</html>
